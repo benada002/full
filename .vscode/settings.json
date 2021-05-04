@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "D:\\dev\\sunrise-project\\data\\db.sqlite",
+            "name": "fullstack"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

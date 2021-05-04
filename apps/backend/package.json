@@ -1,0 +1,36 @@
+{
+  "name": "@fullstack/api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./build/app.js",
+  "scripts": {
+    "start": "node build/app.js",
+    "watch-node": "nodemon build/app.js",
+    "watch-ts": "tsc -w",
+    "dev": "concurrently -r -k \"npm run watch-ts\" \"npm run watch-node\"",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.10",
+    "@types/dotenv-safe": "^8.1.1",
+    "@types/jsonwebtoken": "^8.5.0",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.1.4"
+  },
+  "dependencies": {
+    "argon2": "^0.27.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.30"
+  }
+}
